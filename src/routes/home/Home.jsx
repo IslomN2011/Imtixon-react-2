@@ -8,11 +8,12 @@ import { addToCart } from "../../utils/cart";
 import Image from "../../assets/image.png"
 import Image20 from "../../assets/image20.png"
 import Image2 from "../../assets/image2.png"
-import group25 from "../../assets/group25.png"
-import group24 from "../../assets/group24.png"
-import group27 from "../../assets/group27.png"
-import group26 from "../../assets/group26.png"
+import group25 from "../../assets/Group25.png"
+import group24 from "../../assets/Group24.png"
+import group27 from "../../assets/Group27.png"
+import group26 from "../../assets/Group26.png"
 import "./Home.css";
+
 
 const Home = () => {
   const navigate = useNavigate()

@@ -62,34 +62,34 @@ const products = [
 
 const products2 = [
   {
-    id: 1,
+    id: 9,
     title: "Lorem ipsum",
-    price: "399 000",
-    oldPrice: "499 000",
+    price: 399000,
+    oldPrice: 499000,
     image: "/img/group.png",
   },
 
   {
-    id: 2,
+    id: 10,
     title: "Lorem ipsum",
-    price: "399 000",
-    oldPrice: "499 000",
+    price: 399000,
+    oldPrice: 499000,
     image: "/img/group2.png",
   },
 
   {
-    id: 3,
+    id: 11,
     title: "Lorem ipsum",
-    price: "399 000",
-    oldPrice: "499 000",
+    price: 399000,
+    oldPrice: 499000,
     image: "/img/group3.png",
   },
 
   {
-    id: 4,
+    id: 12,
     title: "Lorem ipsum",
-    price: "399 000",
-    oldPrice: "499 000",
+    price: 399000,
+    oldPrice: 499000,
     image: "/img/group4.png",
   },
 ];

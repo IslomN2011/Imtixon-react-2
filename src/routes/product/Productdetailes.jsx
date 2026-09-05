@@ -1,12 +1,12 @@
 import { useParams } from 'react-router-dom'
 import './productdetails.css'
-import { products } from '../../mock'
+import { products, products2 } from '../../mock'
 import Header from '../../components/header/Header'
 import { addToCart } from '../../utils/cart'
 
 const Productdetailes = () => {
   const { id } = useParams()
-  const product = products.find((item) => item.id === Number(id))
+  const product = [...products, ...products2].find((item) => item.id === Number(id))
 
   if (!product) {
     return <h2>Mahsulot topilmadi</h2>
